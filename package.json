@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "build": "cd js/webpack && webpack",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -17,6 +18,14 @@
   },
   "homepage": "https://github.com/aoilti/gg-study#readme",
   "dependencies": {
-    "rollup": "^2.26.8"
+    "@babel/traverse": "^7.11.5",
+    "rollup": "^2.26.8",
+    "webpack": "^4.44.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.11.6",
+    "@babel/parser": "^7.11.5",
+    "@babel/preset-env": "^7.11.5",
+    "webpack-cli": "^3.3.12"
   }
 }

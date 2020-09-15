@@ -1,7 +1,7 @@
 export default {
-    input: 'js/test-rollup/main.js',
-    output: {
-      file: 'dist/bundle.js',
-      format: 'cjs'
-    }
-  };
+  input: "js/test-rollup/main.js",
+  output: {
+    file: "dist/bundle.js",
+    format: "cjs",
+  },
+};
