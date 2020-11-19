@@ -19,6 +19,7 @@
   "homepage": "https://github.com/aoilti/gg-study#readme",
   "dependencies": {
     "@babel/traverse": "^7.11.5",
+    "promises-aplus-tests": "^2.1.2",
     "rollup": "^2.26.8",
     "webpack": "^4.44.1"
   },
