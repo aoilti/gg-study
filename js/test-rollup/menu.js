@@ -1,7 +1,6 @@
-
 function tree(id) {
   const a = node(id);
-  return 'hi';
+  return "hi";
 }
 
 export default { node, tree };

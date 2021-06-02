@@ -10,16 +10,15 @@ function debounce(fn, wait) {
   };
 }
 
-
 function throttle(fn, delay) {
-    let prev = new Date().getTime();
-    return function() {
-        let context = this;
-        let args = arguments;
-        let now = new Date().now();
-        if (now - prev >= delay) {
-            fn.apply(context, args);
-            prev = Date.now();
-        }
+  let prev = new Date().getTime();
+  return function () {
+    let context = this;
+    let args = arguments;
+    let now = new Date().now();
+    if (now - prev >= delay) {
+      fn.apply(context, args);
+      prev = Date.now();
     }
+  };
 }
